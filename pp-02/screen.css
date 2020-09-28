@@ -13,12 +13,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: 'Raleway', 'Hoefler Text', Georgia, 'Times New Roman', sans-serif;
   line-height: 25px;
+  font-size: 16px;
 }
-
-h1, h2 {
+h1 {
   padding-bottom: 25px;
 }
 ul, li {
   padding-bottom: 12.5px;
-  padding-left: 12.5px
+  padding-left: 25px;
+}
+p{
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+h2 {
+  padding-bottom: 12.5px;
+}
+#dog {
+  padding-bottom: 25px;
+}
+figcaption{
+  font-size: 12px
 }
