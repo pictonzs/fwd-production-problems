@@ -15,7 +15,7 @@ html {
   line-height: 25px;
 }
 
-h1 {
+h1, h2 {
   padding-bottom: 25px;
 }
 ul, li {
