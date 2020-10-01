@@ -12,28 +12,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Raleway', 'Hoefler Text', Georgia, 'Times New Roman', sans-serif;
-  line-height: 25px;
-  font-size: 16px;
+  font-size: 1.125em; /*18/16=1.125*/
+  line-height: 1.3888em; /*25/18=1.3888*/
 }
 h1 {
-  padding-bottom: 25px;
-}
-ul, li {
-  padding-bottom: 12.5px;
-  padding-left: 25px;
-}
-p{
-  padding-bottom: 25px;
-  padding-left: 25px;
+  padding-bottom: 1.333333333em;/*24/18=1.33*/
+  font-weight: 400;
 }
 h2 {
-  padding-bottom: 12.5px;
+  padding-bottom: .69444444444444em;/*12.5/18=1.33*/
+  font-weight: 400;
+}
+ul, li {
+  padding-bottom: .69444444444444em;/*12.5/18=1.33*/
+  padding-left: 1.3888em;/*25/18=1.3888*/
+  font-weight: 300;
+}
+p{
+  padding-bottom: 1.3888em;/*25*/
+  padding-left: 1.3888em;/*25*/
+  font-weight: 300;
 }
 #dog {
-  padding-bottom: 25px;
+  padding-bottom: 1.3888em;/*25*/
 }
 figcaption{
-  font-size: 12px
+  padding-bottom: 2.0833333333333335em;/*12.5/18=1.33*/
+  font-size: .66666666666666em;/*12*/
+  font-weight: 300;
 }
 body{
   background-color: LightGoldenRodYellow;
